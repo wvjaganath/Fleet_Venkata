@@ -122,6 +122,11 @@ Each test here clicks one random host, so a single run doesn't cover every host.
 | Wrong password | ❌ Not covered | Fleet rate-limits failed logins |
 | Forgot password | ❌ Not covered | |
 
+## With More time
+- Add coverage on uncovered items. Some are really important but without good knowleged on indepth use of the product/time taken like for ex - Live report or Enrolling a new host it is difficult to add coverage
+- Use API to setup data so that it can be verified in frontend
+- Add auto start of fleet preview, currently it only check healthz endpoint even thoug it is out of scope but I felt it is strictly necessary. 
+
 ## Project structure
 
 ```text
